@@ -46,7 +46,7 @@ button:hover {
 }
 
 
-.popover{
+.popover span{
     postion: absolute;
     color:#FAFAFA;
     min-width: 160px;
@@ -54,7 +54,7 @@ button:hover {
     border-radius: 4px;
     visibility: hidden;
 }
-.locations:hover .popover{
+.locations:hover .popover span{
     display: block;
     visibility: visible;
 }
