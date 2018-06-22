@@ -47,8 +47,13 @@ button:hover {
 
 
 .popover{
+    display: none;
+    postion: absolute;
     color:#FAFAFA;
     width: 25%;
     border: 1px solids #DDDDDD
     border-radius: 4px;
+}
+.popover:hover{
+display: block;
 }
