@@ -46,7 +46,7 @@ button:hover {
 }
 
 
-popover {
+.popover {
     background-color:#FAFAFA;
     width: 251px;
     border: 1px solid #DDDDDD;
