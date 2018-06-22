@@ -49,11 +49,12 @@ button:hover {
 .popover{
     postion: absolute;
     color:#FAFAFA;
-    width: 160px;
+    min-width: 160px;
     border: 1px solids #DDDDDD
     border-radius: 4px;
+    visibility: hidden;
 }
 .locations:hover .popover{
     display: block;
-
+    visibility: visible;
 }
