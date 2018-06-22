@@ -25,7 +25,7 @@ button:hover {
 }
 
 .filters div{
-    display: inline-block;
+    float: left;
     position: relative;
     height: 100%;
     width: 25%;
@@ -48,7 +48,7 @@ button:hover {
 
 .popover {
     background-color:#FAFAFA;
-    width: 251px;
+    width: 100%
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     visibility: hidden;
@@ -59,6 +59,14 @@ button:hover {
     list-style-type: none;
 
 }
-.locations:hover .popover, .amenities:hover popover{
+.locations:hover .popover, .amenities:hover .popover{
     visibility: visible;
+}
+
+.popover ul, .popover li {
+  line-height: 160%;
+}
+.amenities .popover{
+  padding-top: 20px;
+  height: 150%
 }
