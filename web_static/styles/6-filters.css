@@ -58,7 +58,7 @@ ul.popover{
     margin-left: -41px;
     height: 200px;
 }
-.amenities:hover .locations:hover ul.popover{
+amenities:hover .locations:hover ul.popover{
     display: block;
     visibility: visible;
 
