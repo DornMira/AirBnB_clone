@@ -25,10 +25,13 @@ button:hover {
 }
 
 .filters div{
-    display: in-line block;
+    display: inline-block;
     position: relative;
     height: 100%;
     width: 25%;
+    margin-left: 4%;
+    top:5px;
+    line-height: 6px;
 }
 
 .locations{
