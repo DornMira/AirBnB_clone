@@ -1,6 +1,7 @@
 .places h1{
     text-align: left:
     font-size: 30px;
+    width: 100%;
 }
 
 .places article{
@@ -9,6 +10,13 @@
     border-radius: 4px;
     padding: 20px;
     margin: 20px;
-    display: inline block;
+    display: inline-block;
     text-align: center;
+}
+
+.places {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
