@@ -57,6 +57,8 @@ ul.popover{
     margin-top: 4px;
     margin-left: -41px;
     height: 200px;
+    list-style-type: none;
+
 }
 .locations:hover .amenities:hover ul.popover{
     display: block;
