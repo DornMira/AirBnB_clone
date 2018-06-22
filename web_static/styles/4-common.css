@@ -10,6 +10,9 @@ body .container{
     max-width: 1000px;
     margin: 30px auto;
     position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body .filters{
@@ -31,7 +34,7 @@ body .button{
     border: none;
     position: absolute;
     right: 30px;
-    top: 112px;
+    top: 10px;
 }
 
 body .button:hover {
