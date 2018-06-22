@@ -47,7 +47,6 @@ button:hover {
 
 
 .popover{
-    display: none;
     postion: absolute;
     color:#FAFAFA;
     width: 160px;
