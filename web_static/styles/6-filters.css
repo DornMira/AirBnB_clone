@@ -46,8 +46,7 @@ button:hover {
 }
 
 
-ul.popover {
-    position: absolute;
+popover {
     background-color:#FAFAFA;
     width: 251px;
     border: 1px solid #DDDDDD;
@@ -60,8 +59,6 @@ ul.popover {
     list-style-type: none;
 
 }
-.locations:hover .amenities:hover ul.popover{
-    display: block;
+.locations:hover .popover, .amenities:hover popover{
     visibility: visible;
-
 }
