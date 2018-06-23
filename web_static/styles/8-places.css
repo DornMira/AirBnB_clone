@@ -30,7 +30,7 @@
     font-size: 30px;
     float: right;
     position: relative;
-    bottom: 73px;
+    bottom: 78px;
     left: 6px;
     line-height: 2;
     padding: 4px;
@@ -64,7 +64,6 @@
 }
 
 .max_guest, .number_rooms, .number_bathrooms {
-    position: avsolute;
     display: inline-block;
     height: 100px;
     background-position: 24px 20px;
