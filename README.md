@@ -17,7 +17,7 @@
 
 ## Description
 
-description here
+![](https://camo.githubusercontent.com/97788fc5310cea2961d9d8dbfa9cb4b6aacd420eb1efb27372af451d7f04b7a7/68747470733a2f2f692e696d6775722e636f6d2f6f764d4e79455a2e706e67)
 
 ## Purpose
 
@@ -28,7 +28,39 @@ The purpose of this project is to understand how to:
 * write and read a JSON file   
 * manage `datetime`   
 * use `*args` and `**kwargs`   
-* handle named arguments in a function   
+* handle named arguments in a function
+
+### HTML and CSS concepts
+
+Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
+
+Before developing a big and complex web application, we will build the front end step-by-step.
+
+The first step is to “design” / “sketch” / “prototype” each element:
+
+- Create simple HTML static pages
+- Style guide
+- Fake contents
+- No Javascript
+- No data loaded from anything
+
+During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
+
+## Learning Objectives
+
+- What is `HTML`
+- How to create an `HTML page`
+- What is a `markup language`
+- What is the `DOM`
+- What is an `element / tag`
+- What is an attribute
+- How does the browser load a webpage
+- What is `CSS`
+- How to add style to an element
+- What is a `class`
+- What is a `selector`
+- How to compute `CSS Specificity Value`
+- What are `Box properties` in `CSS`
 
 ## Requirements
 
@@ -47,14 +79,22 @@ The purpose of this project is to understand how to:
    * all functions (inside and outside of classes) should have documentation `python3 -c 'print(__import__("my_module").my_funct\
 ion.__doc__)'`   
 
-## File Structure
+### General
 
-* [AUTHORS](AUTHORS) - list of contributors   
-* []() -   
-* []() -   
-* []() -   
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- Your code should be `W3C compliant` and validate with `W3C-Validator`
+- All your CSS files should be in styles folder
+- All your images should be in images folder
+- You are not allowed to use `!important` and `id (#... in the CSS file)`
+- You are not allowed to use tags `img`, `embed` and `iframe`
+- You are not allowed to use `Javascript`
+- Current screenshots have been done on Chrome 56 or more.
+- No cross browsers
+- You have to follow all requirements but some margin/padding are missing - you should try to fit as much as you can to screenshots   
 
-## Usage Examples
+## Usage Examples for console
 
 ### Interactive Mode
 
@@ -98,12 +138,6 @@ EOF  help  quit
 ## Bugs
 
 At this time, there are no known bugs.
-
-
-## Authors
-
-Lizzie Turner | [GitHub](https://github.com/lizzieturner) | [Twitter](https://twitter.com/_lizzieturner_)   
-Sonia Chevli | [GitHub](https://github.com/SoniaChevli) | [Twitter](https://twitter.com/SuperSaiyanSone)
 
 ## License
 
